@@ -28,8 +28,8 @@ return [
     |
     */
 
-    //'compiled' => get_theme_file_path('/storage/framework/views'),
-    'compiled' => '/tmp/sage-cache',
+    'compiled' => get_theme_file_path('/storage/framework/views'),
+    //'compiled' => '/tmp/sage-cache',
 
     /*
     |--------------------------------------------------------------------------
