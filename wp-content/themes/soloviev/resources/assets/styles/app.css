@@ -1,0 +1,14 @@
+/** Partials */
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@import 'swiper/swiper-bundle.css';
+
+@import "lity/dist/lity.css";
+@import './global.css';
+@import "./components.css";
+@import "./form.css";

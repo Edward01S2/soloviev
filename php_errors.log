@@ -1,0 +1,205 @@
+[13-Nov-2020 05:15:41 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php:14
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/30c0bdef5 in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php on line 14
+[13-Nov-2020 05:16:01 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php:14
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/30c0bdef5 in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php on line 14
+[13-Nov-2020 05:22:17 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php:14
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/30c0bdef5 in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php on line 14
+[13-Nov-2020 05:27:11 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php:14
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/30c0bdef5 in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/8c55654f95faef482896bd73a0fa148b6e6036b9.php on line 14
+[13-Nov-2020 05:27:46 UTC] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to Roots\Acorn\Assets\RelativePathManifest::normalizeRelativePath() must be of the type string, null given, called in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/Assets/RelativePathManifest.php on line 77 and defined in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/Assets/RelativePathManifest.php:87
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/Assets/RelativePathManifest.php(77): Roots\Acorn\Assets\RelativePathManifest->normalizeRelativePath(NULL)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/helpers.php(54): Roots\Acorn\Assets\RelativePathManifest->get(NULL)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/sage-svg/src/SageSvg.php(82): Roots\asset(NULL)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/solovi in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/Assets/RelativePathManifest.php on line 87
+[13-Nov-2020 05:28:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:28:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:30:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:30:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:31:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:31:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:31:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:31:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:31:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:31:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:32:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:32:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:34:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:34:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:34:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:37:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:37:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:38:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:38:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:41:01 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\BlockHelper' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php:42
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php(28): App\View\Composers\Home->slider()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\Home->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\V in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:41:07 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\BlockHelper' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php:42
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php(28): App\View\Composers\Home->slider()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\Home->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\V in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:41:18 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:41:36 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\BlockHelper' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php:42
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php(28): App\View\Composers\Home->slider()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\Home->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\V in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:42:19 UTC] PHP Fatal error:  Uncaught Error: Class 'BlockHelper' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php:42
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php(28): App\View\Composers\Home->slider()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\Home->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\View))
+#5 /Users/edw in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:42:23 UTC] PHP Fatal error:  Uncaught Error: Class 'BlockHelper' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php:42
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php(28): App\View\Composers\Home->slider()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\Home->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\View))
+#5 /Users/edw in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/Home.php on line 42
+[13-Nov-2020 05:46:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:46:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:46:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:46:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:51:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:51:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:52:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:52:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:52:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:53:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:54:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:54:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:55:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:55:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 05:56:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 05:56:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 06:00:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 06:00:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 06:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 06:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 06:01:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 06:01:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 06:02:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 06:02:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 06:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 06:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 15:33:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 15:33:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 15:35:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 14
+[13-Nov-2020 15:35:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/6558dee2617806aa1ea41e46bfa901610d7cacde.php on line 46
+[13-Nov-2020 15:41:35 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:35 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:35 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 25
+[13-Nov-2020 15:41:35 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 26
+[13-Nov-2020 15:41:46 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:46 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:46 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 25
+[13-Nov-2020 15:41:46 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 26
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 25
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 26
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 7
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 25
+[13-Nov-2020 15:41:56 UTC] PHP Warning:  Illegal string offset 'title' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/0af72c5a52165533107ce10c2b4e1417b24f3765.php on line 26
+[13-Nov-2020 19:14:15 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Fields/History.php on line 26
+[13-Nov-2020 22:27:08 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 140
+[15-Nov-2020 19:15:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 172
+[16-Nov-2020 18:01:05 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 182
+[16-Nov-2020 18:08:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 62
+[16-Nov-2020 18:08:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 62
+[17-Nov-2020 01:01:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php on line 157
+[17-Nov-2020 01:01:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function App\Blocks\get_title() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php:152
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php(123): App\Blocks\Advisors->advisors()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Advisors->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.advisors', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+# in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php on line 152
+[17-Nov-2020 01:01:55 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php:150
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php(123): App\Blocks\Advisors->advisors()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Advisors->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.advisors', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /User in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php on line 150
+[17-Nov-2020 01:47:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/a375494b8465fa67b98371986f0997e26bd86040.php on line 9
+[17-Nov-2020 01:48:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function App\Blocks\get_the_permalink_url() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php:154
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php(123): App\Blocks\Advisors->advisors()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Advisors->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.advisors', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object( in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Advisors.php on line 154
+[17-Nov-2020 14:59:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\View\Composers\AdvisorSingle::title() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php:26
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\AdvisorSingle->with()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php on line 26
+[17-Nov-2020 15:24:09 UTC] PHP Parse error:  syntax error, unexpected 'add_filter' (T_STRING), expecting ')' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/helpers.php on line 15
+[17-Nov-2020 15:24:33 UTC] PHP Parse error:  syntax error, unexpected 'add_filter' (T_STRING) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/helpers.php on line 15
+[17-Nov-2020 15:34:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function App\View\Composers\post_link() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php:31
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\AdvisorSingle->with()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatche in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php on line 31
+[17-Nov-2020 15:47:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function print_error() on null in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php:48
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php(31): App\View\Composers\AdvisorSingle->post_link()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\AdvisorSingle->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Conce in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php on line 48
+[17-Nov-2020 16:48:48 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\WP_Query' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php:41
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php(30): App\View\Composers\AdvisorSingle->post_link()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(70): App\View\Composers\AdvisorSingle->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concern in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php on line 41

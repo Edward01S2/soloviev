@@ -1,0 +1,83 @@
+.gfield {
+  @apply mb-4 mt-0 md:w-full;
+  input, select, textarea {
+    @apply w-full bg-transparent py-2 px-2 text-c-green-50 focus:outline-none;
+  }
+  &.gfield_error {
+    input, select, textarea {
+      @apply border-2 border-red-500;
+    }
+  }
+  textarea {
+    @apply h-40;
+  }
+}
+
+.hidden_label label{
+  @apply hidden;
+}
+
+.gfield_visibility_hidden {
+  @apply hidden;
+}
+.validation_message {
+  @apply hidden;
+}
+.validation_error {
+  @apply text-red-400 border-0 px-0 py-0 mb-4 md:mb-4 md:w-4/5 lg:w-3/4;
+}
+.gform_footer {
+  @apply md:flex md:justify-end;
+  .gform_button {
+    @apply text-white py-4 uppercase font-extrabold tracking-widest w-full cursor-pointer transition duration-150 focus:outline-none;
+  }
+}
+.gfield_required {
+  @apply hidden;
+}
+
+.gform_validation_container {
+  @apply hidden;
+}
+
+.gform_ajax_spinner {
+  @apply hidden;
+}
+
+.footer-form  {
+  .gform_wrapper {
+    @apply my-0;
+  }
+  #gform_1 {
+    @apply md:flex md:items-center md:flex-wrap;
+    .validation_error {
+      @apply w-full;
+    }
+    .gform_body {
+      @apply flex-grow;
+    }
+    .gfield {
+      @apply md:mb-4 md:mt-0;
+      input, textarea {
+        @apply border-b border-c-green-50 py-0 md:w-full;
+      }
+      &.gfield_error {
+        input, textarea {
+          @apply border-red-400 border-0 border-b;
+        }
+      }
+      .gfield_label {
+        @apply text-white font-normal;
+      }
+    }
+    .ginput_container {
+      @apply mt-0 md:w-full;
+    }
+    .gform_footer {
+      @apply mt-0 md:justify-start;
+    }
+    .gform_button {
+      @apply bg-c-green-50 rounded-full normal-case text-c-black-100 py-3 font-semibold w-auto px-8 text-sm hover:bg-c-green-200;
+    }
+  }
+}

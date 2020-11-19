@@ -1,0 +1,11 @@
+/**
+ * Global
+ */
+
+ html {
+   @apply font-work;
+ }
+
+ a {
+   @apply transition duration-150;
+ }
