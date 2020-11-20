@@ -7,7 +7,15 @@
       </div>
       <div class="flex flex-col py-12 space-y-8 md:flex-row md:space-y-0 md:space-x-4 lg:justify-between lg:space-x-16">
         @foreach($items as $item)
-          <a class="block w-3/5 mx-auto group md:w-1/3" href="{!! $item['file']['url'] !!}">
+
+          <a class="block w-3/5 mx-auto group md:w-1/3" 
+            @if(isset($item['link']['url']))
+              href="{!! $item['link']['url'] !!}"
+            @endif
+            @if(isset($item['file']['url']))
+              href="{!! $item['file']['url'] !!}"
+            @endif
+          target="_blank">
             <div>
               <img class="transition duration-300 transform group-hover:scale-105"src="{!! $item['image']['url'] !!}" alt="">
               <div class="text-center md:text-left md:pl-6 lg:pl-8">

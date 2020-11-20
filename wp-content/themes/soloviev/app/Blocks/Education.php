@@ -143,6 +143,9 @@ class Education extends Block
                 ->addText('title')
                 ->addText('description')
                 ->addFile('file')
+                    ->setWidth('50')
+                ->addLink('link')
+                    ->setWidth('50')
                 ->addImage('image')
             ->endRepeater();
 

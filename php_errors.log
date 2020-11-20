@@ -203,3 +203,51 @@ Stack trace:
 #2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
 #3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
 #4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concern in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/AdvisorSingle.php on line 41
+[20-Nov-2020 18:17:50 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php:21
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-conte in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 21
+[20-Nov-2020 18:17:59 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php:21
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-conte in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 21
+[20-Nov-2020 18:18:10 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:10 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:21 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:21 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:23 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:23 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:33 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:18:33 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:19:30 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:19:30 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:19:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:19:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:20:48 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF), expecting ';' or ',' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php:12
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Conc in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
+[20-Nov-2020 18:20:59 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endif' (T_ENDIF) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php:12
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlad in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
+[20-Nov-2020 18:21:17 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:21:17 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 11
+[20-Nov-2020 18:24:58 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 10
+[20-Nov-2020 18:24:58 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 10
+[20-Nov-2020 18:25:01 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 10
+[20-Nov-2020 18:25:01 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 10
+[20-Nov-2020 18:27:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
+[20-Nov-2020 18:27:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
