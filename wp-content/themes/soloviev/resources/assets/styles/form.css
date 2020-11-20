@@ -48,6 +48,9 @@
   .gform_wrapper {
     @apply my-0;
   }
+  .gform_confirmation_message {
+    @apply text-c-green-50;
+  }
   #gform_1 {
     @apply md:flex md:items-center md:flex-wrap;
     .validation_error {
