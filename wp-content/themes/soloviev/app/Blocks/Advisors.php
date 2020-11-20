@@ -119,6 +119,7 @@ class Advisors extends Block
     public function with()
     {
         return [
+            'show' => get_field('show'),
             'title' => get_field('title'),
             'advisors' => $this->advisors(),
         ];
@@ -134,6 +135,7 @@ class Advisors extends Block
         $advisors = new FieldsBuilder('advisors');
 
         $advisors
+            ->addTrueFalse('show')
             ->addText('title');
             // ->addRelationship('advisors', [
             //     'post_type' => 'advisor',
