@@ -39,15 +39,65 @@ $(document).ready(() => {
     // },
   });
 
+  const gallerySwiper = new Swiper('.gallery-slider', {
+    slidesPerView: 1.3,
+    grabCursor: true,
+    spaceBetween: 24,
+    slidesOffsetAfter: 48,
+    breakpoints: {
+      768: {
+        slidesPerView: 2.3,
+        spaceBetween: 48,
+        slidesOffsetAfter: 48,
+      },
+      1024:  {
+        slidesPerView: 3.3,
+        spaceBetween: 64,
+        slidesOffsetAfter: 64,
+      }
+    }
+  });
+
+  const upcomingSwiper = new Swiper('.upcoming-slider', {
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: '.upcoming-swiper-next',
+      prevEl: '.upcoming-swiper-prev',
+    },
+    pagination: {
+      el: '.upcoming-swiper-pagination',
+      type: 'bullets',
+    },
+  })
+
+  const pastSwiper = new Swiper('.past-slider', {
+    slidesPerView: 1,
+    grabCursor: true,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: '.past-swiper-next',
+      prevEl: '.past-swiper-prev',
+    },
+    pagination: {
+      el: '.past-swiper-pagination',
+      type: 'bullets',
+    },
+  })
+
   const timelineSwiper = new Swiper('.timeline-slider', {
     slidesPerView: 'auto',
     grabCursor: true,
     freeMode: true,
+    freeModeSticky: true,
     spaceBetween: 24,
+    slidesOffsetAfter: 48,
+    observer: true,
     breakpoints: {
       768: {
         spaceBetween: 32,
-        slidesOffsetAfter: 32,
+        slidesOffsetAfter: 64,
       },
       1024:  {
         spaceBetween: 48,
@@ -59,21 +109,39 @@ $(document).ready(() => {
       nextEl: '.timeline-btn-next',
       prevEl: '.timeline-btn-prev',
     },
+    on: {
+      transitionEnd: function() {
+        timelineSwiper.snapGrid = [...timelineSwiper.slidesGrid];
+      },
+    }
     // pagination: {
     //   el: '.process-swiper-pagination',
     //   type: 'bullets',
     // },
   });
 
+  // timelineSwiper.snapGrid = [...timelineSwiper.slidesGrid];
+
+
+  $('.timeline-btn').click(function(e) {
+    //console.log(timelineSwiper.realIndex);
+    //timelineSwiper.snapGrid = [...timelineSwiper.slidesGrid];
+    let year = $('.timeline-slider .swiper-slide-active').data("year");
+    // let year = slide.data("year");
+    //console.log(year)
+    $('#timeline-range').val(year);
+  });
+
   $('.tl-jump').click(function(e) {
     e.preventDefault();
     let index = $(this).data("index");
     //console.log(index)
+    $('#timeline-range').val($(this).text());
     timelineSwiper.slideTo(index);
   })
 
   $(document).on('input', '#timeline-range', function() {
-    console.log($(this).val() );
+    //console.log($(this).val() );
     //console.log(timelineDates)
     let found = closest($(this).val(), timelineDates)
     let foundIndex = timelineDates.indexOf(found)

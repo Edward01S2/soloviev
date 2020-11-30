@@ -5,21 +5,21 @@ namespace App\Blocks;
 use Log1x\AcfComposer\Block;
 use StoutLogic\AcfBuilder\FieldsBuilder;
 
-class Timeline extends Block
+class Events extends Block
 {
     /**
      * The block name.
      *
      * @var string
      */
-    public $name = 'Timeline';
+    public $name = 'Events';
 
     /**
      * The block description.
      *
      * @var string
      */
-    public $description = 'A simple Timeline block.';
+    public $description = 'A simple Events block.';
 
     /**
      * The block category.
@@ -120,10 +120,11 @@ class Timeline extends Block
     {
         return [
             'title' => get_field('title'),
-            'pdf' => get_field('pdf'),
-            'posts' => $this->posts(),
-            'years' => $this->years(),
+            'content' => get_field('content'),
+            'upcoming' => $this->upcoming(),
+            'past' => $this->past(),
             'show' => get_field('show'),
+
         ];
     }
 
@@ -134,101 +135,91 @@ class Timeline extends Block
      */
     public function fields()
     {
-        $timeline = new FieldsBuilder('timeline');
+        $events = new FieldsBuilder('events');
 
-        $timeline
+        $events
             ->addTrueFalse('show')
             ->addText('title')
-            ->addFile('pdf');
+            ->addWysiwyg('content');
 
-        return $timeline->build();
+        return $events->build();
     }
 
-    /**
-     * Assets to be enqueued when rendering the block.
-     *
-     * @return void
-     */
-    public function enqueue()
-    {
-        //
-    }
-
-    public function years() {
-        $args = array(
-            'post_type' => 'history',
-            'post_status' => 'publish',
-            'posts_per_page' => '-1',
-            'orderby' => 'meta_value',
-            'meta_key' => 'year',
+    public function upcoming() {
+        $args = [
+            'post_type'   => 'event',
+            'meta_key' => 'event date',
+            'posts_per_page' => -1,
+            'orderby' => 'meta_value_num',
             'order' => 'ASC',
-        );
+            'meta_query'=> array(
+                array(
+                    'key' => 'event date',
+                    'compare' => '>=',
+                    'value' => date("Y-m-d"),
+                    'type' => 'DATE'
+                )
+            ),
+        ];
 
         $posts = new \WP_Query($args);
-        $years = [];
 
+        $event_data = [];
         while($posts->have_posts()): $posts->the_post();
         
         $id = get_the_ID();
 
-        $years['all'][] = intval(get_field('year', $id));
-
-        endwhile;
-        wp_reset_query();
-
-        $years['count'] = count($years['all']);
-        $years['min'] = reset($years['all']);
-        $years['max'] = end($years['all']);
-        $years['min_100'] = intval(round(reset($years['all']), -2));
-        $years['max_100'] = intval(round(end($years['all']), -2));
-        $years['current'] = intval(date("Y"));
-        $years['max_10'] = intval(round($years['current']/10) * 10);
-        $years['max_25'] = intval(round($years['current']/25) * 25);
-        $years['step_10'] = range($years['min_100'], $years['max_10'], 10);
-        $years['step_25'] = range($years['min_100'], $years['max_25'], 25);
-
-        if($years['step_25'] > $years['current']) {
-            $end = end($years['step_25']);
-            $years['display_max'] = prev($years['step_25']);
-            $years_25 = range($years['min_100'], $years['display_max'], 25);
-            // $max_10 = $years['max_10'];
-            // if($end !== $max_10) {
-            //     $years['step_25'] = array_push($years_25, $max_10);
-            // }
-            $years['step_25'] = $years_25;
-        }
-
-        return $years;
-
-    }
-
-    public function posts() {
-        $args = array(
-            'post_type' => 'history',
-            'post_status' => 'publish',
-            'posts_per_page' => '-1',
-            'orderby' => 'meta_value',
-            'meta_key' => 'year',
-            'order' => 'ASC',
-        );
-
-        $posts = new \WP_Query($args);
-
-        $post_data = [];
-        while($posts->have_posts()): $posts->the_post();
-        
-        $id = get_the_ID();
-
-        $post_data[] = [
+        $event_data[] = [
             'title' => get_the_title(),
-            'year' => get_field('year', $id),
-            'content' => get_field('content', $id),
-            'image' => get_field('image', $id),
+            'date' => date('F j, Y', strtotime(get_field('event date', $id))),
+            'content' => get_field('about', $id),
+            'image' => get_field('photo', $id),
+            'link' => get_the_permalink($id),
         ];
 
         endwhile;
         wp_reset_query();
 
-        return $post_data;
+        return $event_data;
     }
+
+    public function past() {
+        $args = [
+            'post_type'   => 'event',
+            'meta_key' => 'event date',
+            'posts_per_page' => -1,
+            'orderby' => 'meta_value_num',
+            'order' => 'ASC',
+            'meta_query'=> array(
+                array(
+                    'key' => 'event date',
+                    'compare' => '<',
+                    'value' => date("Y-m-d"),
+                    'type' => 'DATE'
+                )
+            ),
+        ];
+
+        $posts = new \WP_Query($args);
+
+        $event_data = [];
+        while($posts->have_posts()): $posts->the_post();
+        
+        $id = get_the_ID();
+
+        $event_data[] = [
+            'title' => get_the_title(),
+            'date' => date('F j, Y', strtotime(get_field('event date', $id))),
+            'content' => get_field('about', $id),
+            'image' => get_field('photo', $id),
+            'link' => get_the_permalink($id),
+        ];
+
+        endwhile;
+        wp_reset_query();
+
+        return $event_data;
+    }
+
+
 }

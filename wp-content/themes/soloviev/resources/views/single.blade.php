@@ -16,4 +16,8 @@
   </main>
 </div>
 
+@if( is_singular('event'))
+  @include('partials.footer')
+@endif
+
 

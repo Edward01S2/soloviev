@@ -152,3 +152,33 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer'
     ] + $config);
 });
+
+add_action( 'init', function() {
+	register_extended_post_type( 'event', [
+            'menu_icon' => 'dashicons-calendar',
+            'label' => 'Event',
+            'show_in_rest' => true,
+            'menu_position' => 9,
+            'supports' => [
+            'title', 'thumbnail'
+            ],
+            'archive' => array(
+            'nopaging' => true
+            ),
+            'has_archive' => false,
+            'admin_cols' => [
+                'title',
+                'event_date' => [
+                    'title' => 'Event Date',
+                    'meta_key' => 'event date',
+                    'date_format' => 'm/d/Y',
+                ],
+                'date',
+            ],
+        ],
+        [
+            'singular' => 'Event',
+            'plural'   => 'Events',
+        ],
+    );
+} );

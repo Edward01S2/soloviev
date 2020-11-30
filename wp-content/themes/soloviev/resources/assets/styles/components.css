@@ -63,12 +63,35 @@
 
 .timeline-range-container {
    .range__tick {
-      fill: silver;
+      fill: #c4c4c4;
       &:first-child {
 
       }
       &:last-child {
          transform: translateX(-2px)
+      }
+   }
+   .range__tick__50 {
+      fill: #000000;
+   }
+
+   .range__point {
+      @apply text-sm;
+      &.year-100 {
+         @apply font-bold;
+      }
+   }
+
+   #timeline-range {
+      @screen xl {
+         padding-left: 2.3rem;
+         padding-right: 1.8rem;
+      }
+   }
+
+   .timeline-all-years {
+      @screen xl {
+         padding: 0 1.3rem
       }
    }
 
@@ -77,9 +100,9 @@
    margin: 24px 0;
    width: 100%;
    border: none;
-   padding: 0;
    z-index: 2;
-   position: Relative;
+   background: #c4c4c4;
+   position: relative;
    }
 
    input[type=range]:focus {
@@ -188,4 +211,37 @@ footer .prose {
    a {
       @apply text-c-green-100 no-underline hover:underline;
    }
+}
+
+.gallery-slider {
+   @apply overflow-visible;
+   .swiper-slide {
+      @apply h-auto;
+   }
+}
+
+.upcoming-slider {
+   .swiper-slide {
+      @apply h-auto;
+   }
+}
+
+.upcoming-swiper-pagination {
+  @apply relative flex items-center space-x-3;
+  .swiper-pagination-bullet {
+    @apply w-2 h-2 bg-c-gray-600;
+  }
+}
+
+.past-slider {
+   .swiper-slide {
+      @apply h-auto;
+   }
+}
+
+.past-swiper-pagination {
+  @apply relative flex items-center space-x-3;
+  .swiper-pagination-bullet {
+    @apply w-2 h-2 bg-c-gray-600;
+  }
 }

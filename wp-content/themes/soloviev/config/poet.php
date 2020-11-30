@@ -29,7 +29,8 @@ return [
                     'title' => 'Year',
                     'meta_key' => 'year',
                 ),
-            )
+                'date',
+            ),
         ],
         'advisor' => [
             'enter_title_here' => 'Enter name',

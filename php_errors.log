@@ -251,3 +251,115 @@ Stack trace:
 [20-Nov-2020 18:25:01 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 10
 [20-Nov-2020 18:27:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
 [20-Nov-2020 18:27:32 UTC] PHP Warning:  Illegal string offset 'url' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/e7b990767a24814fae4eeeeb2072a677593158cc.php on line 12
+[23-Nov-2020 15:39:11 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Fields/Event.php on line 30
+[23-Nov-2020 18:07:19 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\DateTime' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php:40
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php(27): App\View\Composers\EventSingle->pastEvent()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(72): App\View\Composers\EventSingle->override()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concerns\{c in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php on line 40
+[23-Nov-2020 18:07:27 UTC] PHP Fatal error:  Uncaught Error: Class 'App\View\Composers\DateTimeZone' not found in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php:40
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php(27): App\View\Composers\EventSingle->pastEvent()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(72): App\View\Composers\EventSingle->override()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/roots/acorn/src/Acorn/View/Composer.php(59): Roots\Acorn\View\Composer->merge()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Concerns/ManagesEvents.php(124): Roots\Acorn\View\Composer->compose(Object(Illuminate\View\View))
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/events/Dispatcher.php(381): Illuminate\View\Factory->Illuminate\View\Concern in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/View/Composers/EventSingle.php on line 40
+[23-Nov-2020 19:02:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 63
+[23-Nov-2020 19:08:21 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected ';' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php:62
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): Ill in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 62
+[23-Nov-2020 20:26:51 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected ';' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php:75
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): Ill in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 75
+[23-Nov-2020 21:10:31 UTC] PHP Fatal error:  Uncaught ParseError: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php:88
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/Engines/CompilerEngine.php(57): Illuminate\View\Engines\PhpEngine->evaluatePath('/Users/edward/D...', Array)
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(139): Illuminate\View\Engines\CompilerEngine->get('/Users/edward/D...', Array)
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(122): Illuminate\View\View->getContents()
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/illuminate/view/View.php(91): Illuminate\View\View->renderContents()
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-conte in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/storage/framework/views/812d234a724984be9ca4dfd238e3abf10bfa05ad.php on line 88
+[23-Nov-2020 21:25:07 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 197
+[23-Nov-2020 21:25:17 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:25:31 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:27:30 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:27:33 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:27:46 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:27:49 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:28:10 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:28:12 UTC] PHP Fatal error:  Uncaught Error: Cannot pass parameter 1 by reference in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php:195
+Stack trace:
+#0 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php(125): App\Blocks\Timeline->years()
+#1 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Concerns/InteractsWithBlade.php(33): App\Blocks\Timeline->with()
+#2 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(285): Log1x\AcfComposer\Block->view('blocks.timeline', Array)
+#3 /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/vendor/log1x/acf-composer/src/Block.php(242): Log1x\AcfComposer\Block->render(Array, '', false, 5)
+#4 /Users/edward/Desktop/wordpress/soloviev/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(376): Log1x\AcfComposer\Block->Log1x\AcfComposer\{closure}(Array, '', false, 5, Object(WP_Block))
+#5 /Users/edward/ in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 195
+[23-Nov-2020 21:29:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 196
+[23-Nov-2020 21:29:09 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 196
+[23-Nov-2020 21:29:13 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Timeline.php on line 197
+[24-Nov-2020 21:45:35 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Events.php on line 143
+[24-Nov-2020 21:48:28 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /Users/edward/Desktop/wordpress/soloviev/wp-content/themes/soloviev/app/Blocks/Events.php on line 165
+[25-Nov-2020 16:39:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/edward/Desktop/wordpress/soloviev/wp-includes/update.php on line 168
+[25-Nov-2020 16:39:21 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/edward/Desktop/wordpress/soloviev/wp-includes/update.php on line 403
+[25-Nov-2020 16:39:22 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/edward/Desktop/wordpress/soloviev/wp-includes/update.php on line 607
+[25-Nov-2020 17:10:57 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/edward/Desktop/wordpress/soloviev/wp-includes/update.php on line 168
+[25-Nov-2020 17:10:57 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/edward/Desktop/wordpress/soloviev/wp-includes/update.php on line 403
